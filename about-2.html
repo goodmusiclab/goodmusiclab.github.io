@@ -8,19 +8,19 @@
   <style>
     body {
       margin: 0;
-      padding: 40px 20px;
+      padding: 0;
       background-color: #f9f5f0;
       font-family: 'Noto Serif KR', serif;
       color: #333;
-      line-height: 1.8;
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
-      white-space: pre-line;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
     }
     header {
+      width: 100%;
       text-align: center;
-      margin-bottom: 2rem;
+      padding: 20px 0;
     }
     nav a {
       margin: 0 12px;
@@ -31,26 +31,36 @@
     nav a:hover {
       color: #000;
     }
+    main {
+      max-width: 720px;
+      padding: 40px 20px;
+      text-align: center;
+      flex-grow: 1;
+    }
     h2 {
       font-size: 1.2rem;
       font-weight: 500;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       font-family: 'Nanum Gothic', sans-serif;
+      color: #556b2f;
     }
     p {
-      margin: 1rem 0;
+      margin: 1.5rem 0;
+      white-space: pre-line;
     }
     .nav-buttons {
-      text-align: center;
-      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding-bottom: 40px;
     }
     .nav-buttons a {
-      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #999;
       text-decoration: none;
-      color: #555;
     }
     .nav-buttons a:hover {
-      color: #000;
+      color: #333;
     }
   </style>
 </head>
@@ -62,29 +72,48 @@
     </nav>
   </header>
 
-  <h2>기다림의 연대, 새로운 평화의 언어</h2>
-  <p>
-    나무엔이 노래하는 평화는 ‘기다림의 연대’입니다.
-    도달해야 할 목적지가 아니라,
-    함께 걸어가는 여정 그 자체가 평화입니다.
+  <main>
+    <h2>잃어버린 말의 회복</h2>
+    <p>
+      오랫동안 ‘평화’라는 말은 우리 곁에서 멀어져 있었습니다.
+      정치적 구호로 소비되거나,
+      현실과는 너무 멀리 떨어진 이상향처럼 여겨지곤 했습니다.
 
-    소유하거나 쟁취하는 대상이 아닌,
-    삶의 태도이자 방향입니다.
+      어둠이 짙어지는 시대를 지나며 평화의 본질은 더욱 희미해졌고,
+      그 말은 진실한 울림을 잃어버렸습니다.
 
-    빗소리에 귀 기울이듯,
-    나무가 자라는 침묵에 귀 기울이듯,
-    우리는 서로의 호흡과 발걸음에 귀를 엽니다.
+      나무엔은 그 오래된 단어의 의미를 되찾고자
+      2016년부터 기타 하나를 품에 안고
+      한국과 일본의 소박하지만 의미 있는 모임들을 찾아다녔습니다.
 
-    불완전한 서로를 인정하며
-    같은 지향점을 바라보는 그 기다림 속에서
-    우리는 이미 평화를 살아가고 있는지도 모릅니다.
-  </p>
+      그 시간들을 ‘작은 숲 콘서트’라 부르며,
+      노래와 이야기를 통해
+      평화의 진정한 얼굴을 조용히 다시 그려나가고 있습니다.
+    </p>
 
-<div class="nav-buttons">
-  <a href="about-1.html">← 이전</a>
-  <a href="index.html">🏠 처음으로</a>
-  <a href="about-3.html">다음 →</a>
-</div>
+    <h2>기다림의 연대, 새로운 평화의 언어</h2>
+    <p>
+      나무엔이 노래하는 평화는 ‘기다림의 연대’입니다.
+      도달해야 할 목적지가 아니라,
+      함께 걸어가는 여정 그 자체가 평화입니다.
+
+      소유하거나 쟁취하는 대상이 아닌,
+      삶의 태도이자 방향입니다.
+
+      빗소리에 귀 기울이듯,
+      나무가 자라는 침묵에 귀 기울이듯,
+      우리는 서로의 호흡과 발걸음에 귀를 엽니다.
+
+      불완전한 서로를 인정하며
+      같은 지향점을 바라보는 그 기다림 속에서
+      우리는 이미 평화를 살아가고 있는지도 모릅니다.
+    </p>
+  </main>
+
+  <div class="nav-buttons">
+    <a href="about-1.html">←</a>
+    <a href="index.html">◎</a>
+    <a href="about-3.html">→</a>
   </div>
 </body>
 </html>
